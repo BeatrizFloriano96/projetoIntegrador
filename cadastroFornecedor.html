@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de fornecedores</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Cadastro de fornecedores</h1>
+
+    <p>
+        <div class="caixa">
+            <div class="titulo">Nome da empresa</div>
+            <div class="titulo">CNPJ</div>
+            <div class="titulo">Tipo de produto</div>
+
+        </div>
+    </p>
+
+    <p>
+        <div class="caixa">
+            <div class="item">
+                <select name="empresa" id="empresa" class="opcoes" size="15">
+                    <option>Nome da empresa</option> 
+                </select>
+            </div>
+            
+            <div class="item">
+                <select name="cnpj" id="cnpj" class="opcoes" size="15">
+                    <option>CNPJ</option>
+                </select>
+            </div>
+            
+            <div class="item">
+                <select name="produto" id="produto" class="opcoes" size="15">
+                    <option>Tipo de produto</option>
+                </select>
+            </div>
+        </div>
+    </p>
+
+    <p>
+        <div class="caixa">Cadastro de novos fornecedores</div>
+    </p>
+
+    <p>
+        <div>
+            <form>
+                <label for="empresa">Nome da empresa:</label>
+                <input type="text" name="empresa" class="empresa"> <br>
+
+                <label for="numerocnpj" name='numerocnpj' class="numerocnpj">CNPJ:</label>
+                <input type="number" name="numerocnpj" class="numerocnpj">
+            </form>
+        </div>
+    </p>
+    
+</body>
+</html>
